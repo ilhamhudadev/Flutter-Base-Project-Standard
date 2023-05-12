@@ -1,16 +1,21 @@
-# base_standard
+**Flutter Base Project Standard**
 
-A new Flutter project.
+This is a standard Flutter project structure that provides a solid foundation for building scalable and maintainable Flutter applications. The project structure is designed to separate concerns and promote modularity, making it easy to add new features and maintain existing ones.
 
-## Getting Started
+**Directory Structure**
+The project is divided into three main directories:
 
-This project is a starting point for a Flutter application.
+- common
+This directory contains files that are used globally throughout the project. It includes constants, utility functions, and classes that are used across all modules.
 
-A few resources to get you started if this is your first Flutter project:
+- core
+This directory contains the main configuration files that are used throughout the project. It includes configuration for API, environment, routes, localization, controllers, styles, variables, and other global configuration.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- modules
+This directory contains the feature modules of the application. Each module is designed to be self-contained, with its own set of controllers, views, and styles. The module directory also contains its own set of assets, localization files, and any other resources that are specific to the module.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Getting Started**
+To get started with this project, clone the repository and install the required dependencies using the flutter pub get command. Once the dependencies are installed, you can start adding new modules to the modules directory.
+
+**Contributing**
+Contributions are welcome and encouraged. If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
