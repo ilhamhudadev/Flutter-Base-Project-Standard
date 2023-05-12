@@ -5,13 +5,13 @@ This is a standard Flutter project structure that provides a solid foundation fo
 **Directory Structure**
 The project is divided into three main directories:
 
-**- common**
+**common**
 This directory contains files that are used globally throughout the project. It includes constants, utility functions, and classes that are used across all modules.
-**
-- core**
+
+**core**
 This directory contains the main configuration files that are used throughout the project. It includes configuration for API, environment, routes, localization, controllers, styles, variables, and other global configuration.
 
-**- modules**
+**modules**
 This directory contains the feature modules of the application. Each module is designed to be self-contained, with its own set of controllers, views, and styles. The module directory also contains its own set of assets, localization files, and any other resources that are specific to the module.
 
 **Getting Started**
